@@ -23,7 +23,7 @@ const AnimeHeader = ({ title, genres, episodes, image_url, studios }) => {
           alt={title}
           className="mx-auto mt-6 rounded-lg shadow-2xl"
         />
-        <div className="mt-6 text-center space-x-3">
+        <div className="flex items-center justify-center gap-3 flex-wrap mt-6 text-center">
           {genres.map(({ name }) => (
             <span
               key={name}

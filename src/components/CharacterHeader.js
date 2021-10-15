@@ -17,7 +17,7 @@ const CharacterHeader = ({ name, image_url, nicknames }) => {
           className="mx-auto mt-6 rounded-lg shadow-2xl"
         />
         {nicknames && (
-          <div className="mt-6 text-center space-x-3">
+          <div className="flex items-center justify-center gap-3 flex-wrap mt-6 text-center">
             {nicknames.map((nickname) => (
               <span
                 key={nickname}

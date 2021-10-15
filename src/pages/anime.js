@@ -45,10 +45,10 @@ const Anime = () => {
                   frameBorder="0"
                   allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
-                  className="mx-auto"
+                  className="mx-auto max-w-full"
                 ></iframe>
               )}
-              <div className="text-center space-x-3 mt-6">
+              <div className="flex items-center justify-center flex-wrap gap-3 text-center mt-6">
                 <span className="bg-blue-200 rounded-lg border shadow-xl px-2 py-1">
                   <BsStarFill
                     className="inline text-yellow-500 mr-2"
